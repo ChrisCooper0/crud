@@ -60,6 +60,10 @@ button,
   cursor: pointer;
 }
 
+input:focus {
+  background-color: #f1f1f1;
+}
+
 #add-todo {
   border: 1px solid grey;
   border-radius: 5%;

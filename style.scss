@@ -64,6 +64,10 @@ button,
   cursor: pointer;
 }
 
+input:focus {
+  background-color: $background;
+}
+
 #add-todo {
   border: 1px solid $button;
   border-radius: 5%;
