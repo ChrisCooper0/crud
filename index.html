@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <title>CRUD</title>
+  </head>
+  <body>
+
+    <div class="main">
+    <div>
+      <h1><span>Create</span>
+        <span>Read</span>
+        <span>Update</span>
+        <span>Delete</span>
+</h1>
+    </div>
+    <div class="form">
+      <form action="javascript:void(0);" method="POST" onsubmit="app.add()">
+        <input type="text" id="add-todo" placeholder="Add to list..." />
+        <input type="submit" value="Add" class="button" />
+      </form>
+        <p id="counter"></p>
+      <table>
+        <tr class="to-do">
+          <th>
+            <h3>To-Do:</h3>
+          </th>
+        </tr>
+        <tbody id="tasks"></tbody>
+      </table>
+    </div>
+    <div id="edit-box" role="aria-hidden">
+      <form action="javascript:void(0);" method="POST" id="save-edit">
+        <input type="text" id="edit-todo" />
+        <input type="submit" value="Save" class="button" />
+        <a onclick="closeInput()" aria-label="Close">&#10006</a>
+      </form>
+    </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>

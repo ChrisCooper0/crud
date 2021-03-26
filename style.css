@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: "Lato", sans-serif;
+}
+
+.main {
+  margin: auto;
+  max-width: 80%;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+h1 :first-child {
+  color: #72b861;
+}
+
+h1 :nth-child(2) {
+  color: #7ca5cc;
+}
+
+h1 :nth-child(3) {
+  color: #62c4c7;
+}
+
+h1 :nth-child(4) {
+  color: #d36969;
+}
+
+.form {
+  margin-top: 50px;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+.button {
+  border: 1px solid grey;
+  border-radius: 10%;
+  padding: 2px 5px;
+}
+
+#counter {
+  margin: 10px 0px;
+}
+
+input[type="submit"],
+button,
+[aria-label] {
+  cursor: pointer;
+}
+
+#add-todo {
+  border: 1px solid grey;
+  border-radius: 5%;
+  padding: 2px 5px;
+}
+
+h3 {
+  margin: 5px 0 10px 0;
+}
+
+td {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.to-do {
+  background: transparent !important;
+}
+
+table {
+  margin: auto;
+  max-width: 80%;
+  text-align: center;
+}
+
+#edit-box {
+  display: none;
+  margin-top: 10px;
+}
+
+#edit-todo {
+  padding: 1px 0px;
+}
+/*# sourceMappingURL=style.css.map */

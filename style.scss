@@ -1,0 +1,98 @@
+// CSS Reset
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+$background: #f1f1f1;
+$first: #72b861;
+$second: #7ca5cc;
+$third: #62c4c7;
+$forth: #d36969;
+$button: grey;
+
+body {
+  background-color: $background;
+  font-family: "Lato", sans-serif;
+}
+
+.main {
+  margin: auto;
+  max-width: 80%;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+
+  :first-child {
+    color: $first;
+  }
+  :nth-child(2) {
+    color: $second;
+  }
+  :nth-child(3) {
+    color: $third;
+  }
+  :nth-child(4) {
+    color: $forth;
+  }
+}
+
+.form {
+  margin-top: 50px;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+.button {
+  border: 1px solid $button;
+  border-radius: 10%;
+  padding: 2px 5px;
+}
+
+#counter {
+  margin: 10px 0px;
+}
+
+input[type="submit"],
+button,
+[aria-label] {
+  cursor: pointer;
+}
+
+#add-todo {
+  border: 1px solid $button;
+  border-radius: 5%;
+  padding: 2px 5px;
+}
+
+h3 {
+  margin: 5px 0 10px 0;
+}
+td {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.to-do {
+  background: transparent !important;
+}
+
+table {
+  margin: auto;
+  max-width: 80%;
+  text-align: center;
+}
+
+#edit-box {
+  display: none;
+  margin-top: 10px;
+}
+
+#edit-todo {
+  padding: 1px 0px;
+}
